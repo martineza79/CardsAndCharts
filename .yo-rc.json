@@ -1,0 +1,32 @@
+{
+  "generator-mocha": {
+    "ui": "bdd",
+    "rjs": false
+  },
+  "generator-angm": {
+    "appName": "cardsandcharts",
+    "angularCookies": true,
+    "angularAnimate": true,
+    "angularSanitize": true,
+    "angularBootstrap": true,
+    "angularMaterial": true,
+    "modules": [
+      {
+        "name": "about"
+      },
+      {
+        "name": "album"
+      }
+    ],
+    "menu": [
+      {
+        "link": "about",
+        "title": "About"
+      },
+      {
+        "link": "album",
+        "title": "Album"
+      }
+    ]
+  }
+}
