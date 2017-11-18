@@ -24,6 +24,7 @@
 		'home',
 		'about',
 		'album',
+		'album-sales',
 	]);
 
 })();

@@ -16,6 +16,9 @@
       },
       {
         "name": "album"
+      },
+      {
+        "name": "album-sales"
       }
     ],
     "menu": [
@@ -26,6 +29,10 @@
       {
         "link": "album",
         "title": "Album"
+      },
+      {
+        "link": "album-sales",
+        "title": "Album-sales"
       }
     ]
   }

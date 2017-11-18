@@ -8,4 +8,18 @@
 			</album-description>
 		</div>
 	</div>
+	<br>
+	<form name="bandForm" novalidate>
+		<album-rating name="album" ng-model="user.choice" required></album-rating>
+		<hr>
+		<alert type="danger" ng-if="bandForm.$invalid">
+			<ul ng-messages="bandForm.album.$error" ng-messages-multiple>
+				<li ng-message="albumRequired">Please choose an album</li>
+				<li ng-message="musicRequired">Please Rating the music</li>
+			</ul>
+		</alert>
+	</form>
+	<div ng-hide="bandForm.$invalid" class="well">
+		{{ user.choice }}
+	</div>
 </div>

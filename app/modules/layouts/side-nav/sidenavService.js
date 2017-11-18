@@ -31,6 +31,11 @@
 							name: 'Album'
 					},
 			    
+					{
+						link: 'album-sales',
+							name: 'Album-sales'
+					},
+			    
 		  	];
 
 			return {

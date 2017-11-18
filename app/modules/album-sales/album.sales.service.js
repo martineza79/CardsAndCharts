@@ -3,23 +3,23 @@
 
 	/**
 	 * @ngdoc function
-	 * @name app.service:albumService
+	 * @name app.service:album-salesService
 	 * @description
-	 * # albumService
+	 * # album-salesService
 	 * Service of the app
 	 */
 
   	angular
-		.module('album')
-		.factory('AlbumService', ['$resource', function($resource){
+		.module('album-sales')
+		.factory('Album-salesService', ['$resource', function ($resource){
 			
 		}]);
 		// Inject your dependencies as .$inject = ['$http', 'someSevide'];
 		// function Name ($http, someSevide) {...}
 
-		Album.$inject = ['$http'];
+		Album-sales.$inject = ['$http'];
 
-		function Album ($http) {
+		function Album-sales ($http) {
 
 		}
 
